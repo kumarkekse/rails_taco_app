@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+  article.tacos form {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  table.tacos td.meat,
+  table.tacos td.rice,
+  table.tacos td.salsa {
+    text-transform: capitalize;
+  }
